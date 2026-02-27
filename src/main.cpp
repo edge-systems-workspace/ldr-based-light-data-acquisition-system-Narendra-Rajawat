@@ -37,14 +37,14 @@ void loop() {
 
     // TODO 7:
     // Apply threshold logic (Bright / Dark detection)
-    // if (ldrValue < 500) {
-    //
-    //     // TODO 8:
-    //     // Print brightness status
-    //     Serial.println("Environment: DARK");
-    // } else {
-    //     Serial.println("Environment: BRIGHT");
-    // }
+    if (ldrValue < 500) {
+
+        // TODO 8:
+        // Print brightness status
+        Serial.println("Environment: DARK");
+    } else {
+        Serial.println("Environment: BRIGHT");
+    }
 
     // TODO 9:
     // Add delay (1 second)
